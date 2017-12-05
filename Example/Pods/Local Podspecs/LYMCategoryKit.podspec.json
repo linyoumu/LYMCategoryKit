@@ -1,0 +1,22 @@
+{
+  "name": "LYMCategoryKit",
+  "version": "0.1.0",
+  "summary": "A short description of LYMCategoryKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/linyoumu/LYMCategoryKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "linyoumu": "848516118@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/linyoumu/LYMCategoryKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LYMCategoryKit/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - LYMCategoryKit (0.1.0)
+
+DEPENDENCIES:
+  - LYMCategoryKit (from `../`)
+
+EXTERNAL SOURCES:
+  LYMCategoryKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LYMCategoryKit: 1a086d03d119c3de5d8254bf12e5a5117376ea1e
+
+PODFILE CHECKSUM: 51d40d43ba1387bcb2a1a76980c015a7d5ffa535
+
+COCOAPODS: 1.3.1
