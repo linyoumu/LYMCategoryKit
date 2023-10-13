@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F2EBB292A55FC0577E6F224 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0F2EBB292A55FC0577E6F224 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		563CA2B666EF190E22C8E078 /* Pods_LYMToolKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYMToolKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58102D2885189F39DD5DC00A /* Pods-LYMToolKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYMToolKit_Example.release.xcconfig"; path = "Target Support Files/Pods-LYMToolKit_Example/Pods-LYMToolKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LYMToolKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYMToolKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,8 +64,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A3D25B29E2810959D1A3ADF /* Pods_LYMToolKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYMToolKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07C8E4995CC2106FD38FA93 /* Pods-LYMToolKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYMToolKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-LYMToolKit_Tests/Pods-LYMToolKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C5728F101386332143CD97FE /* LYMToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LYMToolKit.podspec; path = ../LYMToolKit.podspec; sourceTree = "<group>"; };
-		FAF4ABBDC72F6FE37C25815F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C5728F101386332143CD97FE /* LYMToolKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LYMToolKit.podspec; path = ../LYMToolKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FAF4ABBDC72F6FE37C25815F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FD0B6762D3DAA06F1F326981 /* Pods-LYMToolKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYMToolKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LYMToolKit_Tests/Pods-LYMToolKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				FD0B6762D3DAA06F1F326981 /* Pods-LYMToolKit_Tests.debug.xcconfig */,
 				C07C8E4995CC2106FD38FA93 /* Pods-LYMToolKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
