@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'LYMToolKit_Example' do
+  pod 'LYMToolKit', :path => '../'
+
+  target 'LYMToolKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
