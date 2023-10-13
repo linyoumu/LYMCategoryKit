@@ -7,6 +7,9 @@
 //
 
 #import "LYMViewController.h"
+#import <LYMCategoryKit/UIView+FFFrame.h>
+#import <LYMCategoryKit/UIColor+Hex.h>
+#import <MySDKKit/MySDKKit.h>
 
 @interface LYMViewController ()
 
@@ -18,6 +21,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor colorWithHexString:@"333333"];
+    MyUtils *tool = [[MyUtils alloc] init];
+    [tool myFunction];
+    NSLog(@"view-width: %f", self.view.width);
 }
 
 - (void)didReceiveMemoryWarning

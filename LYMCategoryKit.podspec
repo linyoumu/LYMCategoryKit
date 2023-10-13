@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LYMCategoryKit/Classes/**/*'
-  
+  s.vendored_frameworks = 'frameworks/MySDKKit.framework'
   # s.resource_bundles = {
   #   'LYMCategoryKit' => ['LYMCategoryKit/Assets/*.png']
   # }

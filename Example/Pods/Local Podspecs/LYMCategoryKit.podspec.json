@@ -18,5 +18,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LYMCategoryKit/Classes/**/*"
+  "source_files": "LYMCategoryKit/Classes/**/*",
+  "vendored_frameworks": "frameworks/MySDKKit.framework"
 }

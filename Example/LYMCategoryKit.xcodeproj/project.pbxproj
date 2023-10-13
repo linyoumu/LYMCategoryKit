@@ -62,11 +62,11 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D0E076DB74090EE5863EDC7 /* Pods_LYMCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYMCategoryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF7705FD78C2A19F5F11D4C5 /* Pods-LYMCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYMCategoryKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYMCategoryKit_Tests/Pods-LYMCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B90745DE345A190A429DC27F /* LYMCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LYMCategoryKit.podspec; path = ../LYMCategoryKit.podspec; sourceTree = "<group>"; };
-		BE96E77728F6D841CE2608B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B90745DE345A190A429DC27F /* LYMCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LYMCategoryKit.podspec; path = ../LYMCategoryKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE96E77728F6D841CE2608B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D079C2C6CBF21785CBA98CC0 /* Pods-LYMCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYMCategoryKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYMCategoryKit_Example/Pods-LYMCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E4E626650AC7D4AEADA3EF1F /* Pods_LYMCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYMCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F582A8AF53ABC0A0F997BD25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F582A8AF53ABC0A0F997BD25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,7 +208,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				F67EE5D7F5C7DD673C1E872D /* [CP] Embed Pods Frameworks */,
-				B1997BFBB949AF7C732A501F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,8 +226,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				3B6F1189932B47FCB2ABE07B /* [CP] Embed Pods Frameworks */,
-				5CF70ACE21D47514A403DD81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -315,36 +313,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3B6F1189932B47FCB2ABE07B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYMCategoryKit_Tests/Pods-LYMCategoryKit_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5CF70ACE21D47514A403DD81 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYMCategoryKit_Tests/Pods-LYMCategoryKit_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		912FD686C02C888908908FC8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,28 +331,13 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B1997BFBB949AF7C732A501F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYMCategoryKit_Example/Pods-LYMCategoryKit_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F67EE5D7F5C7DD673C1E872D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LYMCategoryKit_Example/Pods-LYMCategoryKit_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-LYMCategoryKit_Example/Pods-LYMCategoryKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LYMCategoryKit/LYMCategoryKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -393,7 +346,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYMCategoryKit_Example/Pods-LYMCategoryKit_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LYMCategoryKit_Example/Pods-LYMCategoryKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
