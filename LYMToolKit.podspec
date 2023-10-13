@@ -20,11 +20,11 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
-
-  s.homepage         = 'https://github.com/linyoumu/LYMToolKit'
+                       
+  s.homepage         = 'https://github.com/linyoumu/LYMToolKit.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'linyoumu' => 'linyoumu@zc-campus.com' }
+  s.author           = { 'linyoumu' => '848516118@qq.com' }
   s.source           = { :git => 'https://github.com/linyoumu/LYMToolKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
