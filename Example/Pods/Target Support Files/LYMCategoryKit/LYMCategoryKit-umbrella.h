@@ -15,6 +15,7 @@
 #import "UIColor+Hex.h"
 #import "UILabel+Extension.h"
 #import "UIView+FFFrame.h"
+#import "LYMCategoryKit.h"
 
 FOUNDATION_EXPORT double LYMCategoryKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char LYMCategoryKitVersionString[];

@@ -1,5 +1,5 @@
 PODS:
-  - LYMCategoryKit (0.1.0)
+  - LYMCategoryKit (0.1.1)
 
 DEPENDENCIES:
   - LYMCategoryKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LYMCategoryKit: 18a29a1e167bf691e185cedf9dcde646fa084c3e
+  LYMCategoryKit: a615bf5c37b7bc9d59a0dea208780d9d3fd1323b
 
 PODFILE CHECKSUM: 51d40d43ba1387bcb2a1a76980c015a7d5ffa535
 
