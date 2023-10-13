@@ -1,0 +1,16 @@
+PODS:
+  - LYMToolKit (0.1.0)
+
+DEPENDENCIES:
+  - LYMToolKit (from `../`)
+
+EXTERNAL SOURCES:
+  LYMToolKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LYMToolKit: fc5eedad9effd9abf5a76a39c7aff342908f76ab
+
+PODFILE CHECKSUM: d7382bb327283615dea6b9ebce4da74afa9de3bd
+
+COCOAPODS: 1.12.1

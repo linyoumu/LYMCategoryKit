@@ -7,6 +7,7 @@
 //
 
 #import "LYMViewController.h"
+#import <LYMToolKit/LYMToolKit.h>
 
 @interface LYMViewController ()
 
@@ -18,6 +19,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *pass = @"123456";
+    
+    NSString *password = [pass md5Encrypt];
+    
+    NSLog(@"Password: %@", password);
+    
 }
 
 - (void)didReceiveMemoryWarning
